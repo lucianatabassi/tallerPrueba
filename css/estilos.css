@@ -394,16 +394,19 @@ h1 {
     margin: 0 20px 0 43px;
   }
 
-  .titulo-politica {
+  .titulos-secciones {
     font-family: 'Gelasio', serif;
     font-weight: 600;
     font-size: 4rem;
-    margin: 80px 0 60px 0;
+    margin: 20px 0 20px 0;
+  }
+  .politica img {
+    margin-top: 80px;
   }
   .slide-container {
     max-width: 1250px;
     width: 100%;
-    height: 500px;
+    height: 700px;
     /*background-color: blueviolet;*/
     
   }
@@ -413,10 +416,10 @@ h1 {
     align-self: center;
   }
   .slide-content {
-    margin: 0 40px;
+    margin: 0 40px 0 0;
   overflow: hidden;
   align-self: center;
-  padding: 60px 0;
+  padding: 60px 0 0 0;
   }
   .card {
     display: flex;
@@ -481,14 +484,28 @@ h1 {
   height: 30px;
   margin-right: 8px;
 }
-.button {
-  color: #F4F4F4;
+
+#boton-card {
+  border: none;
+  background-color: white;
 }
 .botones-card {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin: 10px 10px 10px 0;
+}
+.botones-no-autor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 40px 10px 10px 0;
+}
+.botones-no-autor-tc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 65px;
 }
 .like, 
 .share {
@@ -509,15 +526,15 @@ h1 {
   
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-  right: 71px !important;
+  right: 60px !important;
   left: auto;
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-  left: 1017px !important;
+  left: 1030px !important;
   right: auto;
 }
 .swiper-button-next:after, .swiper-button-prev:after {
-  font-size: 3rem !important;
+  font-size: 2.5rem !important;
 }
 .swiper-button-prev{
   color:#616161 !important;
@@ -532,33 +549,95 @@ h1 {
   background-color: #DE1B2F !important;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: 464px !important;
+  bottom: 660px !important;
   
 
 }
 .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  left: 86% !important;
+  left: 88% !important;
 
+}
+.swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic {
+  width: 100px !important;
 }
 .swiper-button-next, .swiper-button-prev {
   
   top: 5% !important;
 }
 
-/*.card {
-  width: 250px;
+#SECCION-TECNOLOGIA,
+#SECCION-ESPECTACULOS,
+#SECCION-OPINION,
+#SECCION-GUSTARTE,
+#SECCION-VIDEOS,
+#SECCION-SOCIEDAD,
+#SECCION-MUNDO,
+#SECCION-DEPORTES
+ {
+  height: 100vh;
+  margin: 0 20px 0 43px;
 }
-  .card-title{
-    font-family: 'Gelasio', serif;
+
+.tecnologia img,
+.espectaculos img,
+.opinion img,
+.videos img,
+.sociedad img
+.mundo img,
+.deportes img
+ {
+  margin-top: 150px;
+}
+
+.img-opinion {
+  width: 1205px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.gustarte,
+.sociedad
+ {
+  margin-top: 200px;
+}
+
+.temas p {
+  font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
     font-weight: 400;
-    font-size: 2rem;
-  }
-.col.s4 {
+    color: #4B4B4B;
+    margin-top: 60px;
+}
+.temas-con-autor p {
+  font-size: 1.6rem;
+  margin-top: 15px;
+}
+.row-videos {
   display: flex;
-  align-items: center;
-  padding: 0;
-  width: 380px;
-}*/
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.img-videos-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 737px;
+  height: auto;
+}
+.img-videos-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 455px;
+  height: auto;
+}
+
+.video1 {
+  margin-bottom: 40px;
+}
+
+
 
 
 
