@@ -572,7 +572,11 @@ h1 {
 #SECCION-VIDEOS,
 #SECCION-SOCIEDAD,
 #SECCION-MUNDO,
-#SECCION-DEPORTES
+#SECCION-DEPORTES,
+#SECCION-CULTURA,
+#SECCION-FAMA,
+#SECCION-ESTILO,
+#SECCION-ESPECIALES
  {
   height: 100vh;
   margin: 0 20px 0 43px;
@@ -584,7 +588,11 @@ h1 {
 .videos img,
 .sociedad img
 .mundo img,
-.deportes img
+.deportes img,
+.cultura img,
+.fama img,
+.estilo img,
+.especiales
  {
   margin-top: 150px;
 }
@@ -596,9 +604,19 @@ h1 {
 }
 
 .gustarte,
-.sociedad
+.sociedad,
+.especiales
  {
-  margin-top: 200px;
+  margin-top: 250px;
+}
+.espectaculos,
+.opinion,
+.mundo,
+.cultura,
+.fama,
+.estilo
+ {
+  margin-top: 80px;
 }
 
 .temas p {
@@ -637,9 +655,88 @@ h1 {
   margin-bottom: 40px;
 }
 
+.contenedor-especiales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.especiales-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+}
+.especiales-row1 img,
+.especiales-row2 img,
+.especiales-row3 img  {
+  width: 180px;
+  height: 125px;
+
+}
+.especiales-row1 img {
+  margin-left: 10px;
+}
+.nro {
+  font-family: 'Gelasio', serif;
+    font-weight: 400;
+    font-size: 12rem;
+    color: #DE1B2F;
+  
+}
+.nrodos {
+  font-family: 'Gelasio', serif;
+    font-weight: 400;
+    font-size: 10rem;
+    color: #DE1B2F;
+    
+}
+.nrotres {
+  font-family: 'Gelasio', serif;
+    font-weight: 400;
+    font-size: 10rem;
+    color: #DE1B2F;
+    
+}
+.nrocuatro {
+  font-family: 'Gelasio', serif;
+    font-weight: 400;
+    font-size: 10rem;
+    color: #DE1B2F;
+  
+}
+.nrocinco {
+  font-family: 'Gelasio', serif;
+    font-weight: 400;
+    font-size: 10rem;
+    color: #DE1B2F;
+
+}
+
+.titulo-especiales {
+  font-family: 'Gelasio', serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.especiales-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
 
 
+}
+.especiales-row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
 
+
+}
 
   @media (min-width: 1600px) and (max-width: 1920px) {
     #SECCION-1 {
